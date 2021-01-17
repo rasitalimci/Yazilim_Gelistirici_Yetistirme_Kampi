@@ -1,1 +1,0 @@
-# Yazilim_Gelistirici_Yetistirme_Kampi
