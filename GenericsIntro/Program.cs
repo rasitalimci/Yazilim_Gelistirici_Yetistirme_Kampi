@@ -10,9 +10,16 @@ namespace GenericsIntro
             Mylist<string> names = new Mylist<string>();
             names.Add("Raşit");
 
-            List<string> list = new List<string>();
-            Console.WriteLine(list.Count);
+            Console.WriteLine(names.Length);
 
+            names.Add("Arif");
+
+            Console.WriteLine(names.Length);
+
+            foreach (var item in names.Items)
+            {
+                Console.WriteLine(item);
+            }
 
         }
     }
