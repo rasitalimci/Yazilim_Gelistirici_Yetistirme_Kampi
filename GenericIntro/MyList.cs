@@ -4,15 +4,14 @@ using System.Text;
 
 namespace GenericsIntro
 {
-    class Mylist<T>
+    class MyList<T>
     {
         T[] items;
         //constructor
-        public Mylist()
+        public MyList()
         {
             items = new T[0];
         }
-
         public void Add(T item)
         {
             T[] tempArray = items;
@@ -23,6 +22,19 @@ namespace GenericsIntro
             }
 
             items[items.Length - 1] = item;
+
         }
+
+        public int Length
+        {
+            get { return items.Length; }
+        }
+
+        public T[] Items
+        {
+            get { return items; }
+        }
+
+
     }
 }
