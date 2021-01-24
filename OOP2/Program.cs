@@ -9,7 +9,7 @@ namespace OOP2
             RealCustomer customer1 = new RealCustomer();
             customer1.Id = 1;
             customer1.CustomerNo = "12345";
-            customer1.Name = "Raşit";
+            customer1.FirstName = "Raşit";
             customer1.LastName = "ALIMCI";
             customer1.TcNo = "11111111111";
 
